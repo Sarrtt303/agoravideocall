@@ -2,9 +2,9 @@ import React, { useEffect, useState, useRef } from 'react';
 import AgoraRTC, { IAgoraRTCClient, IAgoraRTCRemoteUser, ILocalAudioTrack, ILocalVideoTrack } from 'agora-rtc-sdk-ng';
 import { useLocation } from 'react-router-dom';
 
-const APP_ID = '117a38a9cddd4c7fb7b0ccf57f914da3';
-const DEFAULT_CHANNEL = 'test-channel';
-const DEFAULT_TOKEN = '007eJxTYFBvYO01Sp2wT81uzslQBVfngpc7xLat235ff9NWJY4znFwKDIaG5onGFomWySkpKSbJ5mlJ5kkGyclppuZploYmKYnGmR8/pDcEMjJ0eOxmZGSAQBCfh6EktbhENzkjMS8vNYeBAQDq7CId';
+const APP_ID = '';
+const DEFAULT_CHANNEL = ''
+const DEFAULT_TOKEN = ''
 
 const VideoCall: React.FC = () => {
   const [localTracks, setLocalTracks] = useState<(ILocalAudioTrack | ILocalVideoTrack)[]>([]);
